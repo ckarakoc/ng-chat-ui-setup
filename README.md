@@ -1,3 +1,6 @@
+# Supabase Chat App
+![Introduction GIF](src/assets/readme_intro.gif)
+
 <!-- ## Database Table Schema -->
 ## users table
 
