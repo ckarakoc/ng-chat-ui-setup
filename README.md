@@ -49,7 +49,7 @@ VALUES
   (
     NEW.id,
     NEW.raw_user_meta_data ->> 'full_name'::TEXT,
-    NEW.raw_user_meta_data ->> 'avatar_url'::TEXT,
+    NEW.raw_user_meta_data ->> 'avatar_url'::TEXT
   );
 RETURN NEW;
 END;
